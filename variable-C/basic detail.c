@@ -16,7 +16,7 @@ int main()
 	char gender[8];
 	char email[50];
 	char address[100];  
-	int  age; 
+	int  age,number; 
 	float height;
 	float weight;
 	
@@ -26,6 +26,9 @@ int main()
 	
 	printf("Enter Your Age :");
 	scanf("%d",&age);
+	
+	printf("Enter Your mobile number :");
+	scanf("%d",&number);
 	
 	printf("Enter Your Gender :" );
 	scanf("%s",&gender);
@@ -47,13 +50,14 @@ int main()
 	
 	
 	
-	printf("\n Your Name : %s \n ", &name);
+	printf("\n Your Name : %s \n ",name);
 	printf("Your Age :%d \n",age);
-	printf("Your Gender : %s \n",&gender);
-	printf("Your email : %s \n",&email);
-	printf("Your Height : %f \n",height);
-	printf("Your Weight : %f \n",weight);
-	printf("Your Address :%s \n",&address);
+	printf("Your mobile number :%d \n",number);
+	printf("Your Gender : %s \n",gender);
+	printf("Your email : %s \n",email);
+	printf("Your Height : %.2f \n",height);
+	printf("Your Weight : %.2f \n",weight);
+	printf("Your Address :%s \n",address);
 	
 	
 	return 0;
