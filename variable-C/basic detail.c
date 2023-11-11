@@ -12,7 +12,8 @@ int main()
 {
 	
 	// all are dynamic variable
-	char name[50]; 
+	//char name[50];
+    char name[50]; 
 	char gender[8];
 	char email[50];
 	char address[100];  
