@@ -8,7 +8,7 @@ int main()
 	a=b;
 	b=c;
 
-	printf("\nAfter swapping, a = %d\n", a);
-  	printf("After swapping, b = %d", b);
+	printf("\n swapping, a = %d\n", a);
+	printf("swapping, b = %d", b);
 	return 0;
 }
