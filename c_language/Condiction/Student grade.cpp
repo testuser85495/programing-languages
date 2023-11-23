@@ -11,13 +11,13 @@ int main()
 	float total,per;
 	
 	//USER INPUT FOR SUBJECT
-	printf("Enter your english marks");
+	printf("Enter your English marks :");
 	scanf("%d",&eng);
 	
-	printf("Enter our Maths marks");
+	printf("Enter our Maths marks :");
 	scanf("%d",&maths);
 	
-	printf("Enter your Science marks");
+	printf("Enter your Science marks :");
 	scanf("%d",&science);
 	
 	//TOTAL OF STUDENT MAEKS 
@@ -25,7 +25,7 @@ int main()
 	//FORMULA OF PERCENTAGE
 	per=(total/300)*100;
 	
-	printf("your percentage of three subject is : %.3f", per);
+	printf("The percentage of three subject is : %.3f \n", per);
 	
 	//CONDICTION WAS APPLY ON PERCENTAGE 
 	// & STUDENT GRAED WILL got his/her grade
@@ -34,7 +34,7 @@ int main()
 	{
 		printf("Excellent you got A grade");
 	}
-	else if(per >=60)
+	else if(per >=35)
 	{
 		printf("good you got B grade");
 		
